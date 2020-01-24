@@ -1,2 +1,1 @@
-# ios-sdk
-iOS SDK for Lifevit
+# cocoapods
