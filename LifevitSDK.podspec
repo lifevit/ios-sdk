@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'LifevitSDK.framework'
   s.platform = 'ios'
 
-  s.ios.deployment_target = '10.3'
+  s.ios.deployment_target = '10.0'
 
   s.requires_arc = true
 end
