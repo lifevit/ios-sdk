@@ -83,8 +83,8 @@ typedef enum TensioBraceletRequest {
 #define WEIGHTSCALE_UNIT_KG @"kg"
 #define WEIGHTSCALE_UNIT_LB @"lb"
 
-#define WEIGHTSCALE_TYPE1 @"1"
-#define WEIGHTSCALE_TYPE2 @"2"
+#define WEIGHTSCALE_TYPE1 @(1)
+#define WEIGHTSCALE_TYPE2 @(2)
 
 #define THERMOMETER_UNIT_CELSIUS @"celsius"
 #define THERMOMETER_UNIT_FARENHEIT @"farenheit"
