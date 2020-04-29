@@ -1,15 +1,14 @@
 Pod::Spec.new do |s|
   s.name = "LifevitSDK"
-  s.version = "1.7.4"
+  s.version = "1.7.5"
   s.author = "Lifevit S.L"
 
   s.license = { :type => 'Commercial', :text => 'See https://www.lifevit.es/terms/publisher' }
   s.homepage = 'https://www.lifevit.es'
   s.summary = 'Lifevit SDK'
   
-  s.source = {  :http => 'https://cocoapods.lifevit.es/LifevitSDK.framework.1.7.4.zip'}
+  s.source = {  :http => 'https://cocoapods.lifevit.es/LifevitSDK.framework.1.7.5.zip'}
 
-  #s.source           = { :git => 'https://github.com/kasas/cocoapods.git', :tag => '1.7.3'}
   s.vendored_frameworks = 'LifevitSDK.framework'
   s.platform = 'ios'
 
