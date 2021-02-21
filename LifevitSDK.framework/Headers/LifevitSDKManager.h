@@ -173,6 +173,8 @@
 @property (weak, nonatomic) id<LifevitSDKDevicesScanDelegate> devicesScanDelegate;
 @property (weak, nonatomic) id<LifevitPillReminderDelegate> pillReminderDelegate;
 
+
+- (void) initCentralManagerWithoutBackgroundMode;
 - (void) setCentralManagerIdentifiers:(NSArray *) identifiers;
 - (void) setPeripheralManagerIdentifiers:(NSArray *) identifiers;
 

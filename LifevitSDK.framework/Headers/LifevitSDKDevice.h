@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
                       RSSI:(NSNumber*) RSSI;
 
 - (NSNumber*) getDistanceToDevice;
+- (int) getPowerValue;
 
 @end
 
