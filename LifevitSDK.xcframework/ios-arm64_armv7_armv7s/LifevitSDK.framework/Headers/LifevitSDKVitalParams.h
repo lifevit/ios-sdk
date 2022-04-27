@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LifevitSDKVitalParams : NSObject
 
 enum Language {
-        CHINESE = 0, ENGLISH = 1
+    CHINESE = 0, ENGLISH = 1, SPANISH = 2
 };
 
 
