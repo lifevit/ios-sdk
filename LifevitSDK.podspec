@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   
   s.source = {  :http => 'https://cocoapods.lifevit.es/LifevitSDK.xcframework.2.2.2.zip'}
 
-  s.vendored_frameworks = 'LifevitSDK.framework'
+  s.vendored_frameworks = 'LifevitSDK.xcframework'
   s.platform = 'ios'
 
   s.ios.deployment_target = '10.3'
