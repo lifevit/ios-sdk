@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/LifevitSDK.h</key>
 		<data>
-		ylEiZi25dnSCnrt9XM094dxMf1M=
+		iXWvfiWHUB9NqsNlgjTOCtjPVD4=
 		</data>
 		<key>Headers/LifevitSDKAT250TimeRange.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/LifevitSDKConstants.h</key>
 		<data>
-		UYbPLSp4C5nHwDPZOxgTVu1gXK0=
+		bbGObOo9gkSKdNwsE0df04dnO6s=
 		</data>
 		<key>Headers/LifevitSDKDetailedSleepData.h</key>
 		<data>
@@ -64,6 +64,10 @@
 		<data>
 		SyV9qDyn+s8n4CzaqDoVEBfEI/o=
 		</data>
+		<key>Headers/LifevitSDKGlucometerData.h</key>
+		<data>
+		1rBz0BBXq2PsMbkdBt2EMeEmc8U=
+		</data>
 		<key>Headers/LifevitSDKHeartBeatData.h</key>
 		<data>
 		hUmWTvoU6eO9/JnkmjaQ9DVXo00=
@@ -74,7 +78,7 @@
 		</data>
 		<key>Headers/LifevitSDKManager.h</key>
 		<data>
-		wipp5v7e4KFAVNgbojd+d8YgE28=
+		h3UTl1L/1/98xEA9Z6iiEqJre+M=
 		</data>
 		<key>Headers/LifevitSDKOximeterData.h</key>
 		<data>
@@ -206,7 +210,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		M5SGN3+5SlNQoE30DaSAwDcEviw=
+		OCfRCI1xrsxPbPo2bUnetb6MPAI=
 		</data>
 		<key>J055_07_V632_20180529.hex</key>
 		<data>
@@ -242,11 +246,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ylEiZi25dnSCnrt9XM094dxMf1M=
+			iXWvfiWHUB9NqsNlgjTOCtjPVD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			KWRdd2r74UTtbblFMmqvmNM7ksmCMLLskqjAbiNh75c=
+			4r4RLVe6dlwA+rjAmpQTqXX6vn47wdMzbxsi2odAtfk=
 			</data>
 		</dict>
 		<key>Headers/LifevitSDKAT250TimeRange.h</key>
@@ -341,11 +345,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UYbPLSp4C5nHwDPZOxgTVu1gXK0=
+			bbGObOo9gkSKdNwsE0df04dnO6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Vqv8/LdvyJf6vG4tqh78rb2yUKuJZjNwzjI0OS5J+s=
+			EF1vXuOUV7gHMZY94b7+oQ9YAEUwuhiy8RA99Ib1GR8=
 			</data>
 		</dict>
 		<key>Headers/LifevitSDKDetailedSleepData.h</key>
@@ -392,6 +396,17 @@
 			jdEkzBFMV1myvn3Nmui7m5pCrAEacbG4zrFHGCxsMJA=
 			</data>
 		</dict>
+		<key>Headers/LifevitSDKGlucometerData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1rBz0BBXq2PsMbkdBt2EMeEmc8U=
+			</data>
+			<key>hash2</key>
+			<data>
+			7j8VEAahIHOhdEf5IR/54svHuMTLtechpKRbDob+qN4=
+			</data>
+		</dict>
 		<key>Headers/LifevitSDKHeartBeatData.h</key>
 		<dict>
 			<key>hash</key>
@@ -418,11 +433,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wipp5v7e4KFAVNgbojd+d8YgE28=
+			h3UTl1L/1/98xEA9Z6iiEqJre+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			iAM/uP/ft7q87WcoZq75DuLzZ0zq7yLrVneYmKUsHkQ=
+			Giynd61Uav9pzcZXRXy9NKeqYklTADLzSFAuJaLm3tk=
 			</data>
 		</dict>
 		<key>Headers/LifevitSDKOximeterData.h</key>
