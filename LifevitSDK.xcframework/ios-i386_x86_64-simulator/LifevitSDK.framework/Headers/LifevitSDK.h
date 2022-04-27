@@ -28,6 +28,7 @@ FOUNDATION_EXPORT const unsigned char LifevitSDKVersionString[];
 #import <LifevitSDK/LifevitSDKSleepData.h>
 #import <LifevitSDK/LifevitSDKDetailedSleepData.h>
 #import <LifevitSDK/LifevitSDKOximeterData.h>
+#import <LifevitSDK/LifevitSDKGlucometerData.h>
 #import <LifevitSDK/LifevitSDKPillReminderData.h>
 #import <LifevitSDK/LifevitSDKPillReminderAlarmData.h>
 #import <LifevitSDK/LifevitSDKPillReminderPerformanceData.h>

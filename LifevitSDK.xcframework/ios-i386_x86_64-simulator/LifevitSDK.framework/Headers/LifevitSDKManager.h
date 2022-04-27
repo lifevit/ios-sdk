@@ -42,6 +42,7 @@
 #import "LifevitSDKResponse.h"
 #import "LifevitSDKVitalParams.h"
 #import "LifevitSDKVitalAlarm.h"
+#import "LifevitSDKGlucometerData.h"
 #import <CoreBluetooth/CoreBluetooth.h>
 
 @protocol LifevitSDKManagerDelegate <NSObject>
@@ -144,6 +145,12 @@
 - (void)oximeterDeviceOnResult:(LifevitSDKOximeterData*) data;
 @end
 
+@protocol LifevitGlucometerDelegate <NSObject>
+@required
+- (void)onGlucometerDeviceResult:(LifevitSDKGlucometerData*) data;
+//- (void)onGlucometerDeviceError:(int) errorCode;
+@end
+
 @protocol LifevitTensioBraceletDelegate <NSObject>
 @required
 - (void)tensioBraceletInformation:(id) data;
@@ -184,7 +191,7 @@
 @property (weak, nonatomic) id<LifevitTensioBraceletDelegate> tensioBraceletDelegate;
 @property (weak, nonatomic) id<LifevitSDKDevicesScanDelegate> devicesScanDelegate;
 @property (weak, nonatomic) id<LifevitPillReminderDelegate> pillReminderDelegate;
-
+@property (weak, nonatomic) id<LifevitGlucometerDelegate> glucometerDelegate;
 
 - (void) initCentralManagerWithoutBackgroundMode;
 - (void) setCentralManagerIdentifiers:(NSArray *) identifiers;

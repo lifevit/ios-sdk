@@ -80,8 +80,9 @@ typedef enum TensioBraceletRequest {
 #define DEVICE_BRACELET_AT250_DFU 8
 #define DEVICE_PILL_REMINDER 9
 #define DEVICE_BRACELET_VITAL 10
+#define DEVICE_GLUCOMETER 15
 
-#define DEVICE_TYPES 11
+#define DEVICE_TYPES 12
 
 #define GENDER_MALE 0
 #define GENDER_FEMALE 1
